@@ -32,7 +32,7 @@ aren't they good enough?
 
 Our initial work implementing the 'You Draw It' feature for user testing was based on the following:
 
-+ In 2015, the [New York Times (NYT)]((https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html)) introduced the 'You Draw It' interactive feature where readers input their own assumptions about various metrics of news interest and compare these assumptions to reality.
++ In 2015, the [New York Times (NYT)](https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html) introduced the 'You Draw It' interactive feature where readers input their own assumptions about various metrics of news interest and compare these assumptions to reality.
 + Original code framework can found at <https://github.com/BenoitFuric/you-draw-it-graph>. We adapted and added functionality such as the inclusion of points, visual cues, and storage of user provided data.
 
 Additional pacakges related to user interaction include:
@@ -58,7 +58,6 @@ An ideal contributor project will also plan to write some tests and documentatio
 We encourage contributors to share any other ideas for the improvement of 'You Draw It', as long as they can fit in the 3-month coding time frame. Some additional ideas which are not of high priority:
 
 + Include the ability to handle more than a one-to-one function (e.g. multiple y-values for a given x-value).
-+
 
 
 ## Expected impact
@@ -127,7 +126,7 @@ make them specific for your project.
 
 Contributors, please clone <https://github.com/earobinson95/you-draw-it-example> and complete one or more of the following tests before contacting the mentors above.
 
-- **Easy:** Simulate data and run the you draw it shiny app?
++ **Easy:** Design decisions were made to ease the perceptual and intuitive use of the 'You Draw It' feature. A transparent yellow box is included in the 'You Draw It' feature as a visual cue to inform users of missing inputs and a dashed user line creates the illusion of a continuous line and avoids a jagged appearance. For this test, change the color of the transparent yellow box to orange and the style of the user line to be a long-dash short-dash style.
 
 - **Medium:** Adjust the shinydrawr function defined in R?
 
