@@ -431,6 +431,9 @@ priority:</p>
 <ul>
 <li>Include the ability to handle more than a one-to-one function
 (e.g. multiple y-values for a given x-value).</li>
+<li>Provide an option to show vertical residuals between points and the
+user’s drawn line to demonstrate least squares regression in an
+educational setting.</li>
 </ul>
 </div>
 <div id="expected-impact" class="section level2">
@@ -470,17 +473,19 @@ EVALUATING mentor then your project will not be accepted. Example:
 <p>Contributors, please contact mentors below after completing at least
 one of the tests below.</p>
 <ul>
-<li><p>EVALUATING MENTOR: Susan VanderPlas <a href="mailto:svanderplas@unl.edu" class="email">svanderplas@unl.edu</a>
-is an Assistant Professor at University of Nebraska - Lincoln, an expert
-in perception of statistical graphics, the author of R packages X and Y,
-and has previous GSOC participation experience with
-NAME_OF_OPEN_SOURCE_ORGANIZATION in 20xx-20xx.</p></li>
+<li><p>EVALUATING MENTOR: Emily Robinson <a href="mailto:erobin17@calpoly.edu" class="email">erobin17@calpoly.edu</a> is an Assistant Professor at
+California Polytechnic State University - San Luis Obispo. Her recent
+research implemented ‘You Draw It’ as a graphical test to evaluate the
+choice of scale in data visualizations.</p></li>
+<li><p>Susan VanderPlas <a href="mailto:svanderplas@unl.edu" class="email">svanderplas@unl.edu</a> is an Assistant Professor at
+University of Nebraska - Lincoln, an expert in perception of statistical
+graphics, the author of R packages XXXX and YYY, and has previous GSOC
+participation experience with RStudio in 2012-2013 and mentoring
+experience with RStudio in 2014.</p></li>
 <li><p>Heike Hofmann <a href="mailto:heike.hofmann@gmail.com" class="email">heike.hofmann@gmail.com</a> is a full professor at Iowa
 State University, an expert in computing and graphics, is the author of
-R packages X and Y, and has previous GSOC mentoring experience with
-NAME_OF_OPEN_SOURCE_ORGANIZATION in 20xx-20xx.</p></li>
-<li><p>Emily Robinson <a href="mailto:erobin17@calpoly.edu" class="email">erobin17@calpoly.edu</a> is an Assistant Professor at
-California Polytechnic State University - San Luis Obispo.</p></li>
+R packages XXX and YYY, and has previous GSOC mentoring experience with
+RStudio in 20xx-20xx.</p></li>
 </ul>
 </div>
 <div id="tests" class="section level2">
@@ -515,10 +520,13 @@ inform users of missing inputs and a dashed user line creates the
 illusion of a continuous line and avoids a jagged appearance. For this
 test, change the color of the transparent yellow box to orange and the
 style of the user line to be a long-dash short-dash style.</p></li>
-<li><p><strong>Medium:</strong> Adjust the shinydrawr function defined
-in R?</p></li>
-<li><p><strong>Hard:</strong> Add a feature to the D3.js source
-code?</p></li>
+<li><p><strong>Medium:</strong> Create a bare-bones R package which
+contains the provided <code>shiny_drawer()</code> function. You may find
+it useful to use the <code>litr</code> R package to create your
+package.</p></li>
+<li><p><strong>Hard:</strong> Create an R package as described in the
+Medium test and add documentation to the <code>shiny_drawer()</code>
+function. Additionally, add XXX</p></li>
 </ul>
 </div>
 <div id="solutions-of-tests" class="section level2">

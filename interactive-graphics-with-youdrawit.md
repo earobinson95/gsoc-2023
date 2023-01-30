@@ -52,12 +52,13 @@ The goal of this GSOC project is to bundle the 'You Draw It' feature into an Rpa
 
 An ideal contributor project will also plan to write some tests and documentation (vignette, web page, blog). Some important items from the TODO list:
 
-+
++ 
 +
 
 We encourage contributors to share any other ideas for the improvement of 'You Draw It', as long as they can fit in the 3-month coding time frame. Some additional ideas which are not of high priority:
 
 + Include the ability to handle more than a one-to-one function (e.g. multiple y-values for a given x-value).
++ Provide an option to show vertical residuals between points and the user's drawn line to demonstrate least squares regression in an educational setting.
 
 
 ## Expected impact
@@ -95,11 +96,11 @@ EVALUATING mentor then your project will not be accepted. Example:
 Contributors, please contact mentors below after completing at least one
 of the tests below.
 
-- EVALUATING MENTOR: Susan VanderPlas <svanderplas@unl.edu> is an Assistant Professor at University of Nebraska - Lincoln, an expert in perception of statistical graphics, the author of R packages X and Y, and has previous GSOC participation experience with NAME_OF_OPEN_SOURCE_ORGANIZATION in 20xx-20xx.
+- EVALUATING MENTOR: Emily Robinson <erobin17@calpoly.edu> is an Assistant Professor at California Polytechnic State University - San Luis Obispo. Her recent research implemented 'You Draw It' as a graphical test to evaluate the choice of scale in data visualizations.
 
-- Heike Hofmann <heike.hofmann@gmail.com> is a full professor at Iowa State University, an expert in computing and graphics, is the author of R packages X and Y, and has previous GSOC mentoring experience with NAME_OF_OPEN_SOURCE_ORGANIZATION in 20xx-20xx.
+- Susan VanderPlas <svanderplas@unl.edu> is an Assistant Professor at University of Nebraska - Lincoln, an expert in perception of statistical graphics, the author of R packages XXXX and YYY, and has previous GSOC participation experience with RStudio in 2012-2013 and mentoring experience with RStudio in 2014.
 
-- Emily Robinson <erobin17@calpoly.edu> is an Assistant Professor at California Polytechnic State University - San Luis Obispo. 
+- Heike Hofmann <heike.hofmann@gmail.com> is a full professor at Iowa State University, an expert in computing and graphics, is the author of R packages XXX and YYY, and has previous GSOC mentoring experience with RStudio in 20xx-20xx.
 
 
 ## Tests
@@ -128,9 +129,9 @@ Contributors, please clone <https://github.com/earobinson95/you-draw-it-example>
 
 + **Easy:** Design decisions were made to ease the perceptual and intuitive use of the 'You Draw It' feature. A transparent yellow box is included in the 'You Draw It' feature as a visual cue to inform users of missing inputs and a dashed user line creates the illusion of a continuous line and avoids a jagged appearance. For this test, change the color of the transparent yellow box to orange and the style of the user line to be a long-dash short-dash style.
 
-- **Medium:** Adjust the shinydrawr function defined in R?
+- **Medium:** Create a bare-bones R package which contains the provided `shiny_drawer()` function. You may find it useful to use the `litr` R package to create your package.
 
-- **Hard:** Add a feature to the D3.js source code?
+- **Hard:** Create an R package as described in the Medium test and add documentation to the `shiny_drawer()` function. Additionally, add XXX
 
 ## Solutions of tests
 
