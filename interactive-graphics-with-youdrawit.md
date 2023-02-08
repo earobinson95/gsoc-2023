@@ -99,9 +99,9 @@ of the tests below.
 
 - EVALUATING MENTOR: Emily Robinson <erobin17@calpoly.edu> is an Assistant Professor at California Polytechnic State University - San Luis Obispo. Her recent research implemented 'You Draw It' as a graphical test to evaluate the choice of scale in data visualizations.
 
-- Susan VanderPlas <svanderplas@unl.edu> is an Assistant Professor at University of Nebraska - Lincoln, an expert in perception of statistical graphics, the author of R packages XXXX and YYY, and has previous GSOC participation experience with RStudio in 2012-2013 and mentoring experience with RStudio in 2014.
+- Susan VanderPlas <svanderplas2@unl.edu> is an Assistant Professor at University of Nebraska - Lincoln. She studies the perception of statistical graphics and has previous GSOC participation experience with the animint package in 2012 as a student and 2013-2014 as a mentor.
 
-- Heike Hofmann <heike.hofmann@gmail.com> is a full professor at Iowa State University, an expert in computing and graphics, is the author of R packages XXX and YYY, and has previous GSOC mentoring experience with RStudio in 20xx-20xx.
+- Heike Hofmann <heike.hofmann@gmail.com> is a full professor at Iowa State University, an expert in computing and graphics, is the author of R packages ggpcp, x3ptools, bulletxtrctr, and numerous outhers.
 
 
 ## Tests
