@@ -58,7 +58,7 @@ An ideal contributor project will also plan to write some tests and documentatio
 
 We encourage contributors to share any other ideas for the improvement of 'You Draw It', as long as they can fit in the 3-month coding time frame. Some additional ideas which are not of high priority:
 
-+ Include the ability to handle more than a one-to-one function (e.g. multiple y-values for a given x-value).
++ Include the ability to handle more than a one-to-one function (e.g. Add a mode selection to draw confidence interval boundaries).
 + Provide an option to show vertical residuals between points and the user's drawn line to demonstrate least squares regression in an educational setting.
 
 
