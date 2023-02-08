@@ -1,0 +1,51 @@
+---
+title: "R GSOC 2023 Expectations"
+subtitle: "Interactive graphics with 'You Draw It'"
+author: "Emily Robinson, Susan VanderPlas, and Heike Hofmann"
+format: html
+self-contained: true
+editor: visual
+---
+
+## What you can expect from us
+
++ Zoom meetings with mentors twice a week
++ ...
+
+## What we expect from you in return
+
+<!-- medium (175 hour) or large (350 hour) project -->
+
++ 350 hours / 12 weeks = 25 hours per week
++ Weekly progress reflections
++ No additional job during summer of coding -- this is your full time job.
+
+## Timeline
+
+**Important Dates**
+
++ **April 4** GSoC contributor application deadline
++ **May 4** Accepted GSoC contributor projects announced
++ **May 29 - August 28** Standard Coding Period
+
+The standard coding period will be 12 weeks. See below for our suggested contributor coding period timeline:
+
+| Week | Date         | Suggested Task                                                                     |
+| ---- | ------------ | ---------------------------------------------------------------------------------- |
+| 0    | May 4 - 28   | Community bonding period. Work through any JS tutorials. Read about RShiny and RPackages to get up to speed. |
+| **1**| **May 29**   |  **Coding officially begins!** |
+| 2    | June 5       |  |
+| 3    | June 12      |  |
+| 4    | June 19      |  |
+| 5    | June 26      |  |
+| 6    | July 3       |  |
+| **7**| **July 10**  | **Midterm Evaluations**                                                                |
+| 8    | July 17      |  |
+| 9    | July 24      |  |
+| 10   | July 31      |  |
+| 11   | August 7     |  |
+| 12   | August 14    |  |
+|**13**| **August 21**| **Final week** -- submit final work product to final mentor evaluation                 |
+
+
+## Additional Contributor Test

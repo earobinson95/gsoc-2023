@@ -410,7 +410,7 @@ capability for users to freely draw their own lines.</li>
 existing formats in <code>R</code>, such as <code>shiny</code>.</p>
 </div>
 <div id="coding-project-interactive-graphics-with-you-draw-it" class="section level2">
-<h2>Coding project: interactive graphics with ‘You Draw It’</h2>
+<h2>Coding project: Interactive graphics with ‘You Draw It’</h2>
 <!-- 
 What exactly do you want your contributor to code in the 10 week coding period?
 What functions? What do they do? Docs? Tests? Vignettes?
@@ -421,8 +421,11 @@ into an Rpackage and to add additional functionality to the tool.</p>
 documentation (vignette, web page, blog). Some important items from the
 TODO list:</p>
 <ul>
-<li></li>
-<li></li>
+<li>Package the ‘You Draw It’ tool for flexible use with any real or
+simulated one-to-one data sets.</li>
+<li>Set up axes scales automatically from the provided data.</li>
+<li>Add tool tips to the shiny applet for user training of the
+task.</li>
 </ul>
 <p>We encourage contributors to share any other ideas for the
 improvement of ‘You Draw It’, as long as they can fit in the 3-month
@@ -510,7 +513,7 @@ make them specific for your project.
   contributor write in that other language?
 -->
 <p>Contributors, please clone <a href="https://github.com/earobinson95/you-draw-it-example" class="uri">https://github.com/earobinson95/you-draw-it-example</a> and
-complete one or more of the following tests before contacting the
+complete two or more of the following tests before contacting the
 mentors above.</p>
 <ul>
 <li><p><strong>Easy:</strong> Design decisions were made to ease the
@@ -520,14 +523,27 @@ inform users of missing inputs and a dashed user line creates the
 illusion of a continuous line and avoids a jagged appearance. For this
 test, change the color of the transparent yellow box to orange and the
 style of the user line to be a long-dash short-dash style.</p></li>
-<li><p><strong>Medium:</strong> Create a bare-bones R package which
-contains the provided <code>shiny_drawer()</code> function. You may find
-it useful to use the <code>litr</code> R package to create your
-package.</p></li>
-<li><p><strong>Hard:</strong> Create an R package as described in the
-Medium test and add documentation to the <code>shiny_drawer()</code>
-function. Additionally, add XXX</p></li>
+<li><p><strong>Medium:</strong> Create a bare-bones <a href="https://r-pkgs.org/">R package</a> that passes a <a href="https://r-pkgs.org/R-CMD-check.html">R CMD check</a> for CRAN
+which contains the provided <code>shiny_drawer()</code> function with
+the provided D3.js source code. You may find it useful to use the <a href="http://faculty.marshall.usc.edu/jacob-bien/litr/docs/#:~:text=The%20litr%20R%20package%20lets,html%20file."><code>litr</code></a>
+R package to create your package.</p></li>
+<li><p><strong>Hard:</strong> There is a training effect related to the
+completion of the ‘You Draw It’ task - the movement of the line must be
+slow so that the visual representation on the screen can accurately
+capture each movement. A visual cue using the yellow transparent region
+is meant to inform users of missing inputs, however this is not always
+effective. Inspect the <code>get_user_line_status</code> function in the
+D3.js source code. This status takes on values of “unstarted”, “done”,
+or “in progress”. One of the issues is that if a user draws to fast,
+they may accidentally “jump” points and believe they have completed the
+task, ignoring the visual cue from the yellow box region. Devise a
+strategy to define this status and connect it to a shiny tooltip.
+Implement your strategy and add this additional functionality to the
+‘You Draw It’ test applet.</p></li>
 </ul>
+<!-- 
+Create an R package as described in the Medium test and add documentation to the `shiny_drawer()` function.
+-->
 </div>
 <div id="solutions-of-tests" class="section level2">
 <h2>Solutions of tests</h2>
