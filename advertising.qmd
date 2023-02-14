@@ -1,0 +1,82 @@
+---
+title: "GSoC Advertising"
+format: 
+  html:
+    self-contained: true
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## To my 331/531 classes
+
+**Subject:** Summer Coding Opportunity
+
+Hello all,
+
+I wanted to share an exciting summer opportunity through [Google Summer of Code (GSoC)](https://google.github.io/gsocguides/student/index) with you. GSoC is a program by Google that allows students to work on open-source software projects and receive a stipend for their work during the summer. This is a great chance for students to gain experience and develop networking opportunities.
+
+I have submitted a project proposal to the R Project organization, in which I will serve as a mentor alongside [Susan VanderPlas](https://github.com/srvanderplas) and [Heike Hofmann](https://github.com/heike). Our project will bundle the tool for graphical testing, 'You Draw It', into an R Project. You can find more information on the [project proposal](https://github.com/rstats-gsoc/gsoc2023/wiki/Interactive-graphics-with-%E2%80%98You-Draw-It%E2%80%99) and [R-GSoC's full table of proposed coding projects](https://github.com/rstats-gsoc/gsoc2023/wiki/table-of-proposed-coding-projects) in the links provided.
+
+The program requires either 175 or 300 hours of commitment throughout the summer, depending on the project size, with stipends of $3k and $6k respectively. Accepted GSoC contributor projects will be announced on May 4th, with summer coding running from May 29th to August 28th.
+
+To be considered as a Contributor (your role), please visit the project description and complete the required tests. This project requires both R coding and D3.js coding skills, but we provide resources in the project GitHub repository to help you get started.
+
+I am happy to chat with you more about this opportunity, but you will be required to complete the tests individual of my help.
+
+Best,
+
+Emily Robinson
+
+## Generic
+
+**Subject:** Summer Coding Opportunity
+
+Hello,
+
+I wanted to share an exciting summer opportunity through [Google Summer of Code (GSoC)](https://google.github.io/gsocguides/student/index) with you. GSoC is a program by Google that allows students to work on open-source software projects and receive a stipend for their work during the summer. This is a great chance for students to gain experience and develop networking opportunities.
+
+I have submitted a project proposal to the R Project organization, in which I will serve as a mentor alongside [Susan VanderPlas](https://github.com/srvanderplas) and [Heike Hofmann](https://github.com/heike). Our project will bundle the tool for graphical testing, 'You Draw It', into an R Project. You can find more information on the [project proposal](https://github.com/rstats-gsoc/gsoc2023/wiki/Interactive-graphics-with-%E2%80%98You-Draw-It%E2%80%99) and [R-GSoC's full table of proposed coding projects](https://github.com/rstats-gsoc/gsoc2023/wiki/table-of-proposed-coding-projects) in the links provided.
+
+The program requires either 175 or 300 hours of commitment throughout the summer, depending on the project size, with stipends of $3k and $6k respectively. Accepted GSoC contributor projects will be announced on May 4th, with summer coding running from May 29th to August 28th.
+
+To be considered as a Contributor, please visit the project description and complete the required tests. This project requires both R coding and D3.js coding skills, but we provide resources in the project GitHub repository to help you get started.
+
+We look forward to the potential of working together this summer!
+
+Best,
+
+Emily Robinson,
+Susan VanderPlas, and
+Heike Hofmann
+
+
+## To other universities/professors to circulate
+
+**Subject:** Summer Coding Opportunity
+
+Hello,
+
+I wanted to share an exciting summer opportunity through Google Summer of Code (GSoC) for you to share with any students you have who might be interested. 
+
+[GSoC](https://google.github.io/gsocguides/student/index) is a program by Google that allows students to work on open-source software projects and receive a stipend for their work during the summer. This is a great chance for students to gain experience and develop networking opportunities.
+
+I have submitted a project proposal to the R Project organization, in which I will serve as a mentor alongside [Susan VanderPlas](https://github.com/srvanderplas) and [Heike Hofmann](https://github.com/heike). Our project will bundle the tool for graphical testing, 'You Draw It', into an R Project. You can find more information on the [project proposal](https://github.com/rstats-gsoc/gsoc2023/wiki/Interactive-graphics-with-%E2%80%98You-Draw-It%E2%80%99) and [R-GSoC's full table of proposed coding projects](https://github.com/rstats-gsoc/gsoc2023/wiki/table-of-proposed-coding-projects) in the links provided.
+
+The program requires either 175 or 300 hours of commitment throughout the summer, depending on the project size, with stipends of $3k and $6k respectively. Accepted GSoC contributor projects will be announced on May 4th, with summer coding running from May 29th to August 28th.
+
+To be considered as a Contributor, students should visit the project description and complete the required tests. This project requires both R coding and D3.js coding skills, but we provide resources in the project GitHub repository to help you get started.
+
+Thank you for sharing this opportunity with your students, and please let me know if you have any questions or need further information.
+
+Best,
+
+Emily Robinson,
+Susan VanderPlas, and
+Heike Hofmann
+
+## Twitter / Short message
+
+I am excited to share a summer opportunity through @Google Summer of Code (GSoC)! To learn more and be considered as a Contributor, check out our project proposal for [Interactive graphics with 'You Draw It'](https://github.com/rstats-gsoc/gsoc2023/wiki/Interactive-graphics-with-%E2%80%98You-Draw-It%E2%80%99) @emilyrobinson_a @srvanderplas @heike_hh
